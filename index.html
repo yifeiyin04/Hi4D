@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Hi4D: 4D Instance Segmentation of Close Human Interaction">
+  <meta name="keywords" content="Hi4D">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hi4D: 4D Instance Segmentation of Close Human Interaction</title>
+
+
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Hi4D: 4D Instance Segmentation of Close Human Interaction</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/yifeiyin04/">Yifei Yin</a><sup>1</sup>,</span>
+              <span class="author-block">
+              <a href="https://ait.ethz.ch/people/chen/">Chen Guo</a><sup>1</sup>,</span>
+              <span class="author-block">
+              <a href="https://ait.ethz.ch/people/kamanuel/">Manuel Kaufmann</a><sup>1</sup>,</span>
+              <span class="author-block">
+              <a href="https://ait.ethz.ch/people/jzarate/"> Juan Jose Zarate</a><sup>1</sup>,</span>
+              <span class="author-block">
+              <a href="https://ait.ethz.ch/people/song/">Jie Song</a><sup>1</sup>,</span>
+              <span class="author-block">
+              <a href="https://ait.ethz.ch/people/hilliges/">Otmar Hilliges</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>ETH Zürich</span>
+            </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <img src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/teaser.png"  class="center"/>
+      <h2 class="subtitle has-text-centered">
+        Vid2Avatar, a method to reconstruct detailed 3D avatars from monocular videos in the wild via self-supervised scene decomposition. 
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose Hi4D, a method and dataset for the automatic analysis of physically close human-human interaction under prolonged contact. Robustly disentangling several in-contact subjects is a challenging task due to occlusions and complex shapes. Hence, existing multi-view systems typically fuse 3D surfaces of close subjects into a single, connected mesh. To address this issue we leverage i) individually fitted neural implicit avatars; ii) an alternating optimization scheme that refines pose and surface through periods of close proximity; and iii) thus segment the fused 4D raw scans into individual instances. From these instances we compile a dataset of textured scans of 20 subject pairs (24 male, 16 female), 108 sequences and a total of more than 12k frames. Hi4D contains rich interaction centric annotations in 2D and 3D alongside accurately registered parametric body models. We define varied human pose and shape estimation tasks on this dataset and provide results from state-of-the-art methods on these benchmarks. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/EGi47YeIeGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section" id="method">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Method</h2>
+    <img src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/pipeline.png"  height="250" class="center"/>
+    <p>
+      To reconstruct detailed geometry and appearance of the implicit neural avatars from monocular videos in the wild, we solve the tasks of scene decomposition and surface reconstrution directly in 3D in contrast to prior works that utilize off-the-shelf 2D segmentation tools or manually labeled masks. To achieve this, we model both the human and background in the scene implicitly, parametrized via two separate neural fields which are learned jointly from images to composite the whole scene. To alleviate the ambiguity of in-contact body and scene parts and to better delineate the surfaces, we contribute novel objectives that leverage the dynamically updated human shape in canonical space to regularize the ray opacity. 
+    </p>
+
+
+  </div>
+</section>
+
+<section class="section" id="result">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Result</h2>
+
+    <h3 class="title">Comparison</h3>
+    <p>
+      Our approach outperforms existing state-of-the-art methods due to the superiority of our method to the better decoupling of humans from the background vis self-supervised scene decomposition.
+    </p>
+
+     <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <h4 class="title">Online Video</h4>
+          <video autoplay controls muted loop height="100%">
+            <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/comparison_online.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="column">
+        <h4 class="title">3DPW</h4>
+        <div class="columns is-centered">
+          <div class="column content">
+          <video autoplay controls muted loop height="100%">
+            <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/comparison_threedpw.mp4"
+                    type="video/mp4">
+          </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <h3 class="title">Interpolation+Animation</h3>
+    <p>
+      We interpolate between latent codes of training samples during animation.
+    </p>
+    <video poster="" id="chair-tp" autoplay controls muted loop width="50%">
+      <source src="https://ait.ethz.ch/projects/2022/gdna/downloads/assets/interp_crop.mp4", type="video/mp4">
+    </video> -->
+
+    <h3 class="title">More Qualitative Results</h3>
+    <p>
+      Our method can generalize to different human shapes, garment styles and facial features even under challenging poses and complicated environments.
+    </p>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-steve">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/Helge.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/Lan_2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/roger.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/Nadia.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/exstrimalik.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/Invisible.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/Suarez.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/truman.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/seattle.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/parkinglot.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/ma2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/emdb_00082_4.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" autoplay controls muted loop height="100%">
+              <source src="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/assets/manuel_outdoor.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  </div>
+</section>
+
+<section class="section" id="SynWild Dataset">
+  <div class="container is-max-desktop content">
+    <h2 class="title">SynWild Dataset</h2>
+    <p>
+      We create a new dataset called SynWild to evaluate the human surface reconstruction from monocular videos in the wild. More details and the download link for the dataset will be available soon.
+    </p>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{guo2023vid2avatar,
+      title={Vid2Avatar: 3D Avatar Reconstruction from Videos in the Wild via Self-supervised Scene Decomposition},
+      author={Guo, Chen and Jiang, Tianjian and Chen, Xu and Song, Jie and Hilliges, Otmar},    
+      journal   = {arXiv},
+      year      = {2023}
+    }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://ait.ethz.ch/projects/2023/vid2avatar/downloads/main.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/MoyGcc/vid2avatar" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This webpage is built with the template from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a>. We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
