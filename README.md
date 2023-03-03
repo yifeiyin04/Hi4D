@@ -1,4 +1,5 @@
 # Hi4D Project Page
+This is the repository that contains source code for the [Hi4D project page](https://yifeiyin04.github.io/Hi4D/).
 
 # Acknowledgement
 This webpage is built with the template from [NeRFies](https://github.com/nerfies/nerfies.github.io). We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
