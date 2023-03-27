@@ -109,7 +109,7 @@
     <div class="hero-body">
         <img src="https://ait.ethz.ch/projects/2023/hi4d/downloads/assets/teaser.png"  class="center"/>
       <h2 class="subtitle has-text-centered">
-        Hi4D (<u>H</u>umans <u>i</u>nteracting in <u>4D</u>), a dataset of humans in close physical interaction that contains (A) 4D textured scans, (B) instance meshes with vertex-level contact annotations, (C) instance masks in 2D and 3D, (D) registered parametric body models with contact annotations.
+        Hi4D (<u>H</u>umans <u>i</u>nteracting in <u>4D</u>), a dataset of humans in close physical interaction that contains (A) 4D textured scans, (B) instance meshes with vertex-level contact annotations, (C) instance segmentation masks in 2D and 3D, (D) registered parametric body models with contact annotations.
       </h2>
     </div>
   </div>
@@ -124,7 +124,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We propose Hi4D, a method and dataset for the automatic analysis of physically close human-human interaction under prolonged contact. Robustly disentangling several in-contact subjects is a challenging task due to occlusions and complex shapes. Hence, existing multi-view systems typically fuse 3D surfaces of close subjects into a single, connected mesh. To address this issue we leverage i) individually fitted neural implicit avatars; ii) an alternating optimization scheme that refines pose and surface through periods of close proximity; and iii) thus segment the fused 4D raw scans into individual instances. From these instances we compile a dataset Hi4D, which contains rich interaction centric annotations in 2D and 3D alongside accurately registered parametric body models. We define varied human pose and shape estimation tasks on this dataset and provide results from state-of-the-art methods on these benchmarks. 
+            We propose Hi4D, a method and dataset for the automatic analysis of physically close human-human interaction under prolonged contact. Robustly disentangling several in-contact subjects is a challenging task due to occlusions and complex shapes. Hence, existing multi-view systems typically fuse 3D surfaces of close subjects into a single, connected mesh. To address this issue we leverage i) individually fitted neural implicit avatars; ii) an alternating optimization scheme that refines pose and surface through periods of close proximity; and iii) thus segment the fused 4D raw scans into individual instances. From these instances we compile a dataset Hi4D of 4D textured scans of 20 subject pairs, 100 sequences, and a total of more than 11K frames. Hi4D contains rich interaction centric annotations in 2D and 3D alongside accurately registered parametric body models. We define varied human pose and shape estimation tasks on this dataset and provide results from state-of-the-art methods on these benchmarks. 
           </p>
         </div>
       </div>
@@ -229,7 +229,27 @@
   <div class="container is-max-desktop content">
     <h2 class="title">Download</h2>
     <p>
-      Download instructions will be available soon.    
+      Please fill out the <a href="https://forms.gle/dR6FUpMTCjp97xMx5">Hi4D Application Form</a> to access Hi4D. We will send you an email with more information after approval of your application.
+    </p>
+
+  </div>
+</section>
+
+<section class="section" id="Acknowledgments">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgments</h2>
+    <p>
+      We thank Stefan Walter and Dean Bakker for the infrastructure support. We thank Deniz Yildiz and Laura Wuelfroth for the data collection. We also thank all the participants who contribute to Hi4D.
+    </p>
+
+  </div>
+</section>
+
+<section class="section" id="Contact">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Contact</h2>
+    <p>
+      If you have any questions, please contact <a href="mailto:yifyin@ethz.ch">Yifei Yin</a> or <a href="mailto:chen.guo@inf.ethz.ch">Chen Guo</a>.
     </p>
 
   </div>
