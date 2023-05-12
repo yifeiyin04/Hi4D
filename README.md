@@ -23,7 +23,7 @@ We use [AITViewer](https://github.com/eth-ait/aitviewer) to visualize the datase
       pip install aitviewer
 ```
 ### Usage
-1. Change the `smplx_models` parameter in `visualize_hi4d.py` to the path of SMPL-X models. More information please refer to [AITViewer Documentation](https://eth-ait.github.io/aitviewer/parametric_human_models/supported_models.html).
+1. Change the `smplx_models` parameter in `visualize_hi4d.py` to the path of SMPL models. More information please refer to [AITViewer Documentation](https://eth-ait.github.io/aitviewer/parametric_human_models/supported_models.html).
 2. Change the `HI4D_PATH` parameter in `visualize_hi4d.py` to the path of Hi4D dataset.
 3. Run the following command to visualize the dataset.
 ```bash
