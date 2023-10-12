@@ -42,4 +42,4 @@ If you find this work useful for your research, please cite our paper:
 ```
 
 ## Contact
-If you have any questions, please contact [Yifei Yin](mailto:yifyin@ethz.ch) or [Chen Guo](mailto:chen.guo@inf.ethz.ch).
+If you have any questions, please contact [Chen Guo](mailto:chen.guo@inf.ethz.ch).
