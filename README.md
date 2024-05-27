@@ -1,7 +1,7 @@
 # Hi4D: 4D Instance Segmentation of Close Human Interaction
 
 
-## [Project Page](https://yifeiyin04.github.io/Hi4D/) | [Paper](https://arxiv.org/abs/2303.15380) | [Video](https://youtu.be/DrvL2XkW7rw) | [Data](https://forms.gle/dR6FUpMTCjp97xMx5) 
+## [Project Page](https://yifeiyin04.github.io/Hi4D/) | [Paper](https://arxiv.org/abs/2303.15380) | [Video](https://youtu.be/DrvL2XkW7rw) | [Data](https://hi4d.ait.ethz.ch/) 
 <img src="assets/teaser.png"/> 
 Hi4D (Humans interacting in 4D), a dataset of humans in close physical interaction that contains (A) 4D textured scans, (B) instance meshes with vertex-level contact annotations, (C) instance segmentation masks in 2D and 3D, (D) registered parametric body models with contact annotations. 
 
@@ -12,7 +12,7 @@ Hi4D (Humans interacting in 4D), a dataset of humans in close physical interacti
 3. [Contact](#contact)
 
 ## Hi4D Dataset
-Please fill out the [Hi4D Application Form](https://forms.gle/dR6FUpMTCjp97xMx5) to access Hi4D. We will send you an email with more information after approval of your application.\
+Please fill out the [Hi4D Application Form](https://hi4d.ait.ethz.ch/) to access Hi4D. We will send you an email with more information after approval of your application.\
 \
 Hi4D dataset structure can be found in [Dataset Structure](dataset.md).
 
